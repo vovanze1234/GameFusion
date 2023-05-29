@@ -2,7 +2,6 @@ import pygame
 import sys
 import menu
 
-# Инициализация Pygame
 pygame.init()
 
 # Определение размеров окна
@@ -19,7 +18,5 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
-
-    # Здесь вы можете добавить фоновое изображение или другие элементы интерфейса
 
     pygame.display.update()
