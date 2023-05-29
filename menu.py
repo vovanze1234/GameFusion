@@ -1,7 +1,6 @@
 import pygame
 import sys
 
-# Инициализация Pygame
 pygame.init()
 
 # Определение размеров окна
